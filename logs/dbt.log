@@ -1,0 +1,101 @@
+
+
+============================== 2023-04-30 12:45:07.060958 | c5819be4-dc1e-4286-ab46-07b9edaea89b ==============================
+[0m12:45:07.060958 [info ] [MainThread]: Running with dbt=1.4.5
+[0m12:45:07.061893 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/essent/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m12:45:07.061993 [debug] [MainThread]: Tracking: tracking
+[0m12:45:07.072681 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aa8f550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aa8fca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aa8fe20>]}
+[0m14:47:23.179038 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103275660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e6c9a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e6cb20>]}
+
+
+============================== 14:47:23.181424 | 4f338423-5f59-4586-adfd-501d08e429f2 ==============================
+[0m14:47:23.181424 [info ] [MainThread]: Running with dbt=1.5.0
+[0m14:47:23.181733 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/essent/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:47:29.812810 [debug] [MainThread]: Starter project path: /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/dbt/include/starter_project
+[0m14:47:38.247362 [debug] [MainThread]: Command `dbt init` succeeded at 14:47:38.246955 after 15.08 seconds
+[0m14:47:38.249754 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103275660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ed0130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104ed0b80>]}
+[0m14:47:38.250774 [debug] [MainThread]: Flushing usage events
+[0m14:48:02.958893 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106875660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11056c4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11056c340>]}
+
+
+============================== 14:48:02.961108 | a0801833-60f9-47ec-851d-dd4917dfd8d9 ==============================
+[0m14:48:02.961108 [info ] [MainThread]: Running with dbt=1.5.0
+[0m14:48:02.961424 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/essent/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:48:06.046627 [info ] [MainThread]: A project called my_project already exists here.
+[0m14:48:06.047738 [debug] [MainThread]: Command `dbt init` succeeded at 14:48:06.047618 after 3.10 seconds
+[0m14:48:06.048098 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106875660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x110547ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11056c0a0>]}
+[0m14:48:06.048411 [debug] [MainThread]: Flushing usage events
+[0m14:48:16.192225 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104953610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10616c4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10616c340>]}
+
+
+============================== 14:48:16.194353 | 748c4499-51ac-4a9c-af1a-8a9ed5cfc018 ==============================
+[0m14:48:16.194353 [info ] [MainThread]: Running with dbt=1.5.0
+[0m14:48:16.194649 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/essent/.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:48:20.173025 [debug] [MainThread]: Starter project path: /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/dbt/include/starter_project
+[0m14:48:31.983948 [error] [MainThread]: Encountered an error:
+
+[0m14:48:31.987887 [error] [MainThread]: Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/dbt/cli/requires.py", line 86, in wrapper
+    result, success = func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/dbt/cli/requires.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/dbt/cli/main.py", line 459, in init
+    results = task.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/dbt/task/init.py", line 305, in run
+    self.create_profile_from_target(adapter, profile_name=project_name)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/dbt/task/init.py", line 180, in create_profile_from_target
+    self.create_profile_from_profile_template(profile_template, profile_name)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/dbt/task/init.py", line 164, in create_profile_from_profile_template
+    target = self.generate_target_from_input(prompts, initial_target)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/dbt/task/init.py", line 130, in generate_target_from_input
+    target[key] = click.prompt(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/termui.py", line 166, in prompt
+    value = prompt_func(prompt)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/click/termui.py", line 149, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m14:48:31.988576 [debug] [MainThread]: Command `dbt init` failed at 14:48:31.988470 after 15.81 seconds
+[0m14:48:31.988836 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104953610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x120104ca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x120104460>]}
+[0m14:48:31.989119 [debug] [MainThread]: Flushing usage events
+[0m14:48:40.910420 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103775660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10516c4c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10516c340>]}
+
+
+============================== 14:48:40.912376 | 9a4ff1ba-0e71-474d-893a-0c0a653cccab ==============================
+[0m14:48:40.912376 [info ] [MainThread]: Running with dbt=1.5.0
+[0m14:48:40.912670 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/essent/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m14:48:44.594498 [debug] [MainThread]: Starter project path: /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/dbt/include/starter_project
+[0m14:48:46.305444 [info ] [MainThread]: Profile my_project written to /Users/essent/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m14:48:46.305808 [info ] [MainThread]: 
+Your new dbt project "my_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:48:46.306190 [debug] [MainThread]: Command `dbt init` succeeded at 14:48:46.306112 after 5.41 seconds
+[0m14:48:46.306389 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103775660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10514bee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10516c730>]}
+[0m14:48:46.306613 [debug] [MainThread]: Flushing usage events
+[0m09:14:33.467394 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c7b610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10886c910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10886ca90>]}
+
+
+============================== 09:14:33.470430 | a6167ef0-7531-4d0c-948c-9eee4f47bb5c ==============================
+[0m09:14:33.470430 [info ] [MainThread]: Running with dbt=1.5.0
+[0m09:14:33.470784 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/essent/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m09:14:33.471166 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/essent/Projects/dbt-1.5-test/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m09:14:33.471664 [debug] [MainThread]: Command `dbt compile` failed at 09:14:33.471544 after 0.02 seconds
+[0m09:14:33.471914 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c7b610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10886caf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10886c760>]}
+[0m09:14:33.472093 [debug] [MainThread]: Flushing usage events
